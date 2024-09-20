@@ -15,9 +15,9 @@ function getDatabaseUri() {
             database: 'poke_user_test',
         }
         : {
-            user: 'postgres',
-            password: 'postgres',
-            host: '127.0.0.1',
+            user: 'poke_users_user',
+            password: 'rozzuFeMP2FTfijsiJ2QHZJPxsxF5Dx7',
+            host: 'dpg-crmqff5umphs739j8rhg-a',
             database: 'poke_users',
         };
 }
