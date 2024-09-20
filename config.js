@@ -11,13 +11,13 @@ function getDatabaseUri() {
     return (process.env.NODE_ENV === "test")
         ? {  user: 'postgres',
             password: 'postgres',
-            host: '0.0.0.0',
+            host: 'localhost',
             database: 'poke_user_test',
         }
         : {
             user: 'postgres',
             password: 'postgres',
-            host: '0.0.0.0',
+            host: 'localhost',
             database: 'poke_users',
         };
 }
